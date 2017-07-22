@@ -1,0 +1,17 @@
+//MOD OF 2 NUMBERS Without Using "% and /"
+
+num1 = int(input("Enter first number: "))
+a=num1
+num2 = int(input("Enter second number: "))
+q = 0
+
+  
+while (num1 >= num2):
+   # print 'The count is:', q
+ 
+    num1  -=  num2
+    q=q+1
+    
+    
+mod = a - (q)*num2;
+print(mod);
